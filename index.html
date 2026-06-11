@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Hoja de Vida / Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Mi Hoja de Vida</h1>
+        </div>
+        <nav>
+            <ul class="nav-principal">
+                <li class="dropdown">
+                    <a href="#perfil" class="main-link">Perfil</a>
+                    <ul class="nav-secundario">
+                        <li><a href="#sobre-mi">Sobre Mí</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#experiencia" class="main-link">Trayectoria</a>
+                    <ul class="nav-secundario">
+                        <li><a href="#laboral">Exp. Laboral</a></li>
+                        <li><a href="#educacion">Educación</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#portafolio" class="main-link">Portafolio</a>
+                    <ul class="nav-secundario">
+                        <li><a href="#disenos">Diseños</a></li>
+                        <li><a href="#proyectos">Proyectos Web</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#contacto" class="main-link">Contacto</a>
+                    <ul class="nav-secundario">
+                        <li><a href="#escribeme">Escríbeme</a></li>
+                        <li><a href="#redes">Redes Sociales</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <img src="tu-foto.jpg" alt="Foto de Perfil" class="profile-img" onerror="this.src='https://via.placeholder.com/150'">
+            <h2>¡Hola! Bienvenido a mi entorno profesional</h2>
+            <p>Desarrollador Web & Diseñador</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <section id="portafolio" class="portfolio-section">
+            <h2>Mi Portafolio</h2>
+            <p class="subtitle">Una muestra de mis últimos trabajos</p>
+            
+            <div class="grid-portafolio">
+                <div class="card">
+                    <img src="proyecto1.jpg" alt="Proyecto 1" onerror="this.src='https://via.placeholder.com/350x200/ff0000/ffffff?text=Tu+Imagen+Aquí'">
+                    <div class="card-body">
+                        <h3>Proyecto Alfa</h3>
+                        <p>Sub-enlace: Diseños de interfaz de usuario.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="proyecto2.jpg" alt="Proyecto 2" onerror="this.src='https://via.placeholder.com/350x200/0000ff/ffffff?text=Tu+Imagen+Aquí'">
+                    <div class="card-body">
+                        <h3>Proyecto Beta</h3>
+                        <p>Sub-enlace: Desarrollo y maquetación web.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="proyecto3.jpg" alt="Proyecto 3" onerror="this.src='https://via.placeholder.com/350x200/ffff00/000000?text=Tu+Imagen+Aquí'">
+                    <div class="card-body">
+                        <h3>Proyecto Gamma</h3>
+                        <p>Sub-enlace: Gestión e identidad visual.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
